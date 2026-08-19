@@ -31,7 +31,7 @@ x-status: defunct
 x-defunct-reason: 'Acquired by Autonomy 2009 (NASDAQ IWOV); products now OpenText. interwoven.com serves no
   HTTP/HTTPS; DNS resolves to parked IPs 193.82.52.62 / 209.234.173.10. No api/developer/docs subdomains.'
 x-enrichment: 'nochange 2026-07-19 — defunct company, no live API/docs surface; no artifacts fabricated.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
