@@ -23,14 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/interwoven.png
 name: Interwoven
-description: 'Interwoven, Inc. (NASDAQ: IWOV) was an enterprise content management software company
-  founded in 1995 whose flagship products were TeamSite web content management and WorkSite document
-  management, with a strong presence in the legal sector. Accel backed the company circa 1998; it IPO''d,
-  and was acquired by Autonomy Corporation in 2009 (Autonomy in turn acquired by HP in 2011; TeamSite and
-  related products later went to OpenText in 2016). The company is DEFUNCT: interwoven.com no longer serves
-  HTTP/HTTPS and there is no live API, developer portal, or documentation surface to enrich. This entry is
-  a false-positive lead from harvesting Accel''s historic portfolio and should be skipped by the enrichment
-  pipeline.'
+description: 'Interwoven, Inc. (NASDAQ: IWOV) was an enterprise content management software company founded
+  in 1995 whose flagship products were TeamSite web content management and WorkSite document management,
+  with a strong presence in the legal sector. Accel backed the company circa 1998; it IPO''d, and was
+  acquired by Autonomy Corporation in 2009 (Autonomy in turn acquired by HP in 2011; TeamSite and related
+  products later went to OpenText in 2016). The company is DEFUNCT: interwoven.com no longer serves HTTP/HTTPS
+  and there is no live API, developer portal, or documentation surface to enrich. This entry is a false-positive
+  lead from harvesting Accel''s historic portfolio and should be skipped by the enrichment pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/interwoven/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -39,15 +38,16 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
-x-defunct-reason: 'Acquired by Autonomy 2009 (NASDAQ IWOV); products now OpenText. interwoven.com serves no
-  HTTP/HTTPS; DNS resolves to parked IPs 193.82.52.62 / 209.234.173.10. No api/developer/docs subdomains.'
-x-enrichment: 'nochange 2026-07-19 — defunct company, no live API/docs surface; no artifacts fabricated.'
+x-defunct-reason: Acquired by Autonomy 2009 (NASDAQ IWOV); products now OpenText. interwoven.com serves
+  no HTTP/HTTPS; DNS resolves to parked IPs 193.82.52.62 / 209.234.173.10. No api/developer/docs subdomains.
+x-enrichment: nochange 2026-07-19 — defunct company, no live API/docs surface; no artifacts fabricated.
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-15'
 tags:
 - Company
 - Cloud Saas
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
